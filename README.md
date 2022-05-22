@@ -41,4 +41,9 @@ Ya estaría completado el proceso de instalación, ahora podemos acceder a la in
 La configuración va a comprobar los requisitos:
 ![requisito](https://user-images.githubusercontent.com/104897417/169699574-dd26b1be-f172-41cc-881c-c49230715ab1.png)
     
-    
+Ponemos el nombre de la base de datos, el usuario y la contraseña:
+![inicio_sesión](https://user-images.githubusercontent.com/104897417/169700031-9c89c0d4-5cac-4302-b83c-977e6b7e1fbf.png)
+
+Finalmente se nos ha instalado correctamente:
+![zabbix_instalado](https://user-images.githubusercontent.com/104897417/169700280-fe3d23b3-e52c-4111-bb50-6cce1b75e9d8.png)
+ 
