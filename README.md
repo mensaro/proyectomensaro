@@ -111,6 +111,10 @@ También podemos verificar que hemos cerrado sesión buscando la cadena de nombr
     
 ![logout](https://user-images.githubusercontent.com/104897417/170249258-e1e03c27-fd44-4eea-ba90-9ee2bae58f62.png)
 
+ Filnamente vamos a monitorizar y despés a web. Vemos que ha funcioinado
+ 
+ ![sitioweb](https://user-images.githubusercontent.com/104897417/170252045-4bfe6ef5-6d99-4da0-96dc-9fae4dd1f09c.png)
+
 
 
 
