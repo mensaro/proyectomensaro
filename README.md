@@ -59,7 +59,16 @@ Finalmente se nos ha instalado correctamente:
     
 Entramos en la interfaz web de administración de Zabbix, vamos al apartado "Configuration" y, dentro de éste, entramos en el apartado "Host".
 
-    Pulsamos en "create host" y empezamos a configurar el host. Ponemos un nombre en este caso "windows-pc" y en el apartado grupos añadimos todos los      grupos.
+ Pulsamos en "create host" y empezamos a configurar el host. Ponemos un nombre en este caso "windows-pc" y en el apartado grupos añadimos todos los      grupos y finalmente lde damos a add en el apartado de aggent interfaces y ponemos la ip del cliente
+    
+   ![create_host](https://user-images.githubusercontent.com/104897417/170222843-0446080e-5423-451e-a2a9-732651568c70.png)
+    
+ Entramos en el host que acabamos de crear y nos vamos a la pestaña de "Templates", buscamos el template "Windows OS", le damos a "add" y después a "update".
+
+ ![template](https://user-images.githubusercontent.com/104897417/170223697-5f8f11c5-361c-47e7-87e8-1bbefc6bfa71.png)
+   
+    
+    
 
 
 
