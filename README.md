@@ -66,6 +66,10 @@ Entramos en la interfaz web de administración de Zabbix, vamos al apartado "Con
  Entramos en el host que acabamos de crear y nos vamos a la pestaña de "Templates", buscamos el template "Windows OS", le damos a "add" y después a "update".
 
  ![template](https://user-images.githubusercontent.com/104897417/170223697-5f8f11c5-361c-47e7-87e8-1bbefc6bfa71.png)
+    
+    
+    
+Nos vamos a "Monitoring", y dentro de este pulsamos en Graphs, en "Host" seleccionamos windows-pc y En "Graph" tenemos dos opciones disponibles una para monitorizar la CPU (CPU Load) y otra para monitorizar la memoria (Memory usage)
    
     
     
