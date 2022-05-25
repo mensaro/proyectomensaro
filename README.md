@@ -72,7 +72,9 @@ Entramos en la interfaz web de administración de Zabbix, vamos al apartado "Con
 Nos vamos a "Monitoring", y dentro de este pulsamos en Graphs, en "Host" seleccionamos windows-pc y En "Graph" tenemos dos opciones disponibles una para monitorizar la CPU (CPU Load) y otra para monitorizar la memoria (Memory usage)
 ![graphs](https://user-images.githubusercontent.com/104897417/170230841-b53f4397-71cd-4a76-b7a7-15e1efaacbed.png)
 
- 
+ Memoria
+ ![memoria](https://user-images.githubusercontent.com/104897417/170237606-fab2d47e-272f-40f8-92b1-653b10c1cd25.png)
+
    
     
     
