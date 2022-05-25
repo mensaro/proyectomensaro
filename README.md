@@ -84,7 +84,36 @@ Nos vamos a "Monitoring", y dentro de este pulsamos en Graphs, en "Host" selecci
  # Monitorizar un sitio web con Zabbix
     
 Añadir un escenario. Vamos a Configuración → Hosts , elegimos un host y hacemos clic en Web. Luego hacemos clic en "Crear Escenario Web".
+
 ![web](https://user-images.githubusercontent.com/104897417/170241752-d962b8b0-c3fb-4f84-9745-e675654ca594.png)
+
+2º Definir los pasos para el escenario.
+ 
+![image](https://user-images.githubusercontent.com/104897417/170243226-67463243-ca91-469c-862f-79614344f09f.png)
+
+Continuamos iniciando sesión en la interfaz de Zabbix, y lo hacemos reutilizando las macros (variables) que definimos en el nivel de escenario: {usuario} y {contraseña}
+
+ ![login](https://user-images.githubusercontent.com/104897417/170244776-9bd50e5c-4473-49e0-b015-b8c43ef3c54f.png)
+    
+    
+5º Al iniciar sesión, debemos verificar el hecho. Para hacerlo, verificamos una cadena que solo sea visible cuando inicie sesión, por ejemplo, Administración.
+    
+![check](https://user-images.githubusercontent.com/104897417/170246850-65fd0ca1-843a-421f-843f-b7d88206460a.png)
+    
+    
+Ahora que hemos verificado que se puede acceder a la interfaz y que podemos iniciar sesión y recuperar el contenido registrado, también debemos cerrar sesión; de lo contrario, la base de datos de Zabbix se contaminará con muchos registros de sesiones abiertas
+    
+![out](https://user-images.githubusercontent.com/104897417/170249210-5d073b02-1e47-40a9-8fce-13bc96625977.png)
+
+    
+    
+También podemos verificar que hemos cerrado sesión buscando la cadena de nombre de usuario.
+    
+![logout](https://user-images.githubusercontent.com/104897417/170249258-e1e03c27-fd44-4eea-ba90-9ee2bae58f62.png)
+
+
+
+
 
 
 
