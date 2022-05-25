@@ -55,5 +55,12 @@ Finalmente se nos ha instalado correctamente:
    Ahora para que el servidor pueda hacer ping al cliente debemos quitar el firewall al cliente
     ![quitamos el firewall](https://user-images.githubusercontent.com/104897417/170217028-209dbcca-cbf1-439b-8645-0e5ba6f52979.png)
 
+   Monitorizar un equipo 
+    
+Entramos en la interfaz web de administración de Zabbix, vamos al apartado "Configuration" y, dentro de éste, entramos en el apartado "Host".
+
+    Pulsamos en "create host" y empezamos a configurar el host. Ponemos un nombre en este caso "windows-pc" y en el apartado grupos añadimos todos los      grupos.
+
+
 
  
