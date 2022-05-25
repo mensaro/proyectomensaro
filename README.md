@@ -74,9 +74,14 @@ Nos vamos a "Monitoring", y dentro de este pulsamos en Graphs, en "Host" selecci
 
  Memoria
  ![memoria](https://user-images.githubusercontent.com/104897417/170237606-fab2d47e-272f-40f8-92b1-653b10c1cd25.png)
-
-   
     
+ CPU
+ ![CPU](https://user-images.githubusercontent.com/104897417/170238234-5b2ecd3e-0896-450f-9d2a-af8e29d71966.png)
+
+ Disco
+   
+ ![DISCO](https://user-images.githubusercontent.com/104897417/170238087-85f6a4af-b26f-485f-bd13-ac48969afdb0.png)
+   
     
 
 
