@@ -48,7 +48,8 @@ Finalmente se nos ha instalado correctamente:
 ![zabbix_instalado](https://user-images.githubusercontent.com/104897417/169700280-fe3d23b3-e52c-4111-bb50-6cce1b75e9d8.png)
     
  -Instalación del agente
-  Cuando lo descarguemos de a página web, en la instalación solo tenemos que poner la ip del servidor
-   ![zabbix_agent](https://user-images.githubusercontent.com/104897417/170215308-0e9db478-f6aa-44d9-a2fa-d148ae13a504.png)
+ 
+    Cuando lo descarguemos de a página web, en la instalación solo tenemos que poner la ip del servidor
+  ![zabbix_agent](https://user-images.githubusercontent.com/104897417/170215308-0e9db478-f6aa-44d9-a2fa-d148ae13a504.png)
 
  
