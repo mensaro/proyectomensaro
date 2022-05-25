@@ -83,6 +83,8 @@ Nos vamos a "Monitoring", y dentro de este pulsamos en Graphs, en "Host" selecci
  ![DISCO](https://user-images.githubusercontent.com/104897417/170238087-85f6a4af-b26f-485f-bd13-ac48969afdb0.png)
  # Monitorizar un sitio web con Zabbix
     
+Añadir un escenario. Vamos a Configuración → Hosts , elegimos un host y hacemos clic en Web. Luego hacemos clic en "Crear Escenario Web".
+![web](https://user-images.githubusercontent.com/104897417/170241752-d962b8b0-c3fb-4f84-9745-e675654ca594.png)
 
 
 
