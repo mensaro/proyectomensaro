@@ -4,7 +4,8 @@
   <h4>Instalamos Zabbix<h4>
   
 ![installzabiix](https://user-images.githubusercontent.com/104897417/169695972-7b14894a-b8d1-4076-a1cb-3bc172710b99.png)
--Instalamos el paquete descargado antes:
+
+ -Instalamos el paquete descargado antes:
 
 sudo dpkg -i zabbix-release_4.2-1+bionic_all.deb
 
@@ -16,7 +17,8 @@ sudo apt install -y zabbix-server-mysql zabbix-frontend-php zabbix-agent
 ![CONECTAR_UROOT](https://user-images.githubusercontent.com/104897417/169697729-9a102a11-6dec-4875-873e-529d8d528441.png)
 
 -Creamos la base de datos:
- ![Creamos la base de datos](https://user-images.githubusercontent.com/104897417/169697928-41e38357-ec06-4c11-96b5-3122a1754024.png)
+ 
+![Creamos la base de datos](https://user-images.githubusercontent.com/104897417/169697928-41e38357-ec06-4c11-96b5-3122a1754024.png)
 
     
 -Creamos al usuario zabbix con contraseña password y le damos todos los privilegios sobre la base de datos zabbix:
@@ -89,31 +91,31 @@ Añadir un escenario. Vamos a Configuración → Hosts , elegimos un host y hace
 
 2º Definir los pasos para el escenario.
  
-![image](https://user-images.githubusercontent.com/104897417/170243226-67463243-ca91-469c-862f-79614344f09f.png)
+![first](https://user-images.githubusercontent.com/104897417/170443586-0f27a1fd-28e7-495f-9956-d90d637521ba.png)
 
 Continuamos iniciando sesión en la interfaz de Zabbix, y lo hacemos reutilizando las macros (variables) que definimos en el nivel de escenario: {usuario} y {contraseña}
 
- ![login](https://user-images.githubusercontent.com/104897417/170244776-9bd50e5c-4473-49e0-b015-b8c43ef3c54f.png)
+ ![login_](https://user-images.githubusercontent.com/104897417/170444416-3c99ad52-19d1-4083-bb18-63df2f3341db.png)
     
     
 5º Al iniciar sesión, debemos verificar el hecho. Para hacerlo, verificamos una cadena que solo sea visible cuando inicie sesión, por ejemplo, Administración.
     
-![check](https://user-images.githubusercontent.com/104897417/170246850-65fd0ca1-843a-421f-843f-b7d88206460a.png)
+![login_check](https://user-images.githubusercontent.com/104897417/170444518-a711e4b7-8453-414c-8786-fb0ffe87cc64.png)
     
     
 Ahora que hemos verificado que se puede acceder a la interfaz y que podemos iniciar sesión y recuperar el contenido registrado, también debemos cerrar sesión; de lo contrario, la base de datos de Zabbix se contaminará con muchos registros de sesiones abiertas
     
-![out](https://user-images.githubusercontent.com/104897417/170249210-5d073b02-1e47-40a9-8fce-13bc96625977.png)
+![logout](https://user-images.githubusercontent.com/104897417/170444794-3040aeb4-1301-46ff-9ed7-06914a5d0582.png)
 
     
     
 También podemos verificar que hemos cerrado sesión buscando la cadena de nombre de usuario.
     
-![logout](https://user-images.githubusercontent.com/104897417/170249258-e1e03c27-fd44-4eea-ba90-9ee2bae58f62.png)
+ ![logout](https://user-images.githubusercontent.com/104897417/170444762-2885772a-3e38-4bcc-bf3d-75a347929c88.png))
 
- Filnamente vamos a monitorizar y despés a web. Vemos que ha funcioinado
+ Filnamente vamos a monitorizar y después a web. Vemos que ha funcioinado
  
- ![sitioweb](https://user-images.githubusercontent.com/104897417/170252045-4bfe6ef5-6d99-4da0-96dc-9fae4dd1f09c.png)
+ ![logoutch](https://user-images.githubusercontent.com/104897417/170444931-4603038d-9b0e-4be3-b135-6d72baca6d51.png)
 
     
 # Monitorizar una red
