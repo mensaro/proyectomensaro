@@ -115,6 +115,10 @@ También podemos verificar que hemos cerrado sesión buscando la cadena de nombr
  
  ![sitioweb](https://user-images.githubusercontent.com/104897417/170252045-4bfe6ef5-6d99-4da0-96dc-9fae4dd1f09c.png)
 
+    
+# Monitorizar una red
+    
+ La monitorización se encuentra en el apartado Monitoring y después Dashboard.
 
 
 
