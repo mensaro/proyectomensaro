@@ -1,7 +1,8 @@
 #   Proyectomensaro
 
-<h1>ZABBIX<h1>
-  <h4>Instalamos Zabbix<h4>
+## ZABBIX
+  
+#### Instalamos Zabbix
   
 ![installzabiix](https://user-images.githubusercontent.com/104897417/169695972-7b14894a-b8d1-4076-a1cb-3bc172710b99.png)
 
@@ -49,21 +50,21 @@ Ponemos el nombre de la base de datos, el usuario y la contraseña:
 Finalmente se nos ha instalado correctamente:
 ![zabbix_instalado](https://user-images.githubusercontent.com/104897417/169700280-fe3d23b3-e52c-4111-bb50-6cce1b75e9d8.png)
     
- # Instalación del agente
+# Instalación del agente
  
-    Cuando lo descarguemos de a página web, en la instalación solo tenemos que poner la ip del servidor
-  ![zabbix_agent](https://user-images.githubusercontent.com/104897417/170215308-0e9db478-f6aa-44d9-a2fa-d148ae13a504.png)
-    
-   Ahora para que el servidor pueda hacer ping al cliente debemos quitar el firewall al cliente
-    ![quitamos el firewall](https://user-images.githubusercontent.com/104897417/170217028-209dbcca-cbf1-439b-8645-0e5ba6f52979.png)
+Cuando lo descarguemos de a página web, en la instalación solo tenemos que poner la ip del servidor
+![zabbix_agent](https://user-images.githubusercontent.com/104897417/170215308-0e9db478-f6aa-44d9-a2fa-d148ae13a504.png)
 
-    # Monitorizar un equipo 
+Ahora para que el servidor pueda hacer ping al cliente debemos quitar el firewall al cliente
+![quitamos el firewall](https://user-images.githubusercontent.com/104897417/170217028-209dbcca-cbf1-439b-8645-0e5ba6f52979.png)
+
+# Monitorizar un equipo 
     
 Entramos en la interfaz web de administración de Zabbix, vamos al apartado "Configuration" y, dentro de éste, entramos en el apartado "Host".
 
- Pulsamos en "create host" y empezamos a configurar el host. Ponemos un nombre en este caso "windows-pc" y en el apartado grupos añadimos todos los      grupos y finalmente lde damos a add en el apartado de aggent interfaces y ponemos la ip del cliente
+Pulsamos en "create host" y empezamos a configurar el host. Ponemos un nombre en este caso "windows-pc" y en el apartado grupos añadimos todos los      grupos y finalmente lde damos a add en el apartado de aggent interfaces y ponemos la ip del cliente
     
-   ![create_host](https://user-images.githubusercontent.com/104897417/170222843-0446080e-5423-451e-a2a9-732651568c70.png)
+![create_host](https://user-images.githubusercontent.com/104897417/170222843-0446080e-5423-451e-a2a9-732651568c70.png)
     
  Entramos en el host que acabamos de crear y nos vamos a la pestaña de "Templates", buscamos el template "Windows OS", le damos a "add" y después a "update".
 
